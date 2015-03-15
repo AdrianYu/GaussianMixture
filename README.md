@@ -1,5 +1,5 @@
 # GaussianMixture
-Gausssian mixture model based on EM for any shaped gaussians.
+Gaussian mixture model based on EM for any shaped gaussians.
 
 Single C++ header and depend on STL and Eigen3 only.
 Support AIC/AICC/BIC to automantically determine the number of gaussians.
