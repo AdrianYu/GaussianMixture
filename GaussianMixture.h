@@ -389,7 +389,7 @@ namespace adrianyu{
 				}
 				//std::cout << i << std::endl;
 				// just in case that there are less distinct data samples than centers.
-				Scalar maxd = max<std::vector<Scalar>::iterator, Scalar>(maxdists.begin(), maxdists.end());
+				Scalar maxd = max<typename std::vector<Scalar>::iterator, Scalar>(maxdists.begin(), maxdists.end());
 				if (maxd < EPSILON){
 					return -1;
 				}
