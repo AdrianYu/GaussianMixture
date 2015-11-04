@@ -16,4 +16,6 @@ For futher details, please refer to Source.cpp and GaussianMixture.h.
 
 If you have any problems, please don't hesitate to contact me at adrianandyu@gmail.com
 
+# Special thanks
+Wen was kind enough to point out the error about free parameters. Thanks!
 
