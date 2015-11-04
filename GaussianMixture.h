@@ -271,7 +271,7 @@ namespace adrianyu{
 			} while (iter < maxiter && diff > tol);
 
 			getPProbClass(data, pprob, belongings);
-			Scalar freePramNum = static_cast<Scalar>((dataDim*dataDim + 1) * k - 1);
+			Scalar freePramNum = static_cast<Scalar>((dataDim * (dataDim + 1) / 2 + dataDim + 1) * k - 1);
 			aic = 2.0 * nlogl + 2.0 * freePramNum;
 			aicc = aic + 2.0 * freePramNum * (freePramNum + 1) / (sampleNum - freePramNum - 1);
 			bic = 2.0 * nlogl + freePramNum*std::log(static_cast<Scalar>(sampleNum));
